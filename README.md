@@ -2,15 +2,15 @@
 
 ### File and Directory Operations:
 
-List directory contents.
+List directory contents.                      
 ```
-ls
-```
+ls                           
+``` 
 
-cd: Change directory.             
-pwd: Print the working directory.            
+cd: Change directory.                                    
+pwd: Print the working directory.                           
 mkdir: Create directories.                    
-rmdir/rm: Remove directories/files.                       
+rmdir/rm: Remove directories/files.                        
 mv: Move or rename files/directories.                          
 cp: Copy files/directories.                                 
 find: Search for files and directories.                                     
@@ -32,14 +32,14 @@ nano, vim, emacs, or vi: Popular text editors for Linux
 
 User and Permission Management:
 
-sudo: Execute commands with superuser privileges.
-useradd/userdel: Add or delete user accounts.
-passwd: Change user passwords.
-chown/chmod: Change file/directory ownership and permissions.
+sudo: Execute commands with superuser privileges.                              
+useradd/userdel: Add or delete user accounts.                                      
+passwd: Change user passwords.                                       
+chown/chmod: Change file/directory ownership and permissions.                                      
 
-View Groups : cat/etc/group
-view users are added in which all group : groups <username> 
-view all members in a group : members groupname
+View Groups : cat/etc/group                                            
+view users are added in which all group : groups <username>                                        
+view all members in a group : members groupname                                          
 
 
 Process Management:
