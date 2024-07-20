@@ -32,14 +32,19 @@ nano, vim, emacs, or vi: Popular text editors for Linux
 
 User and Permission Management:
 
-sudo: Execute commands with superuser privileges.                                                              
-useradd/userdel: Add or delete user accounts.                                       
-passwd: Change user passwords.                                       
-chown/chmod: Change file/directory ownership and permissions.                                                      
+sudo: Execute commands with superuser privileges.                              
+adduser/userdel: Add or delete user accounts.                                                    
+addgroups : to add groups                                
 
-View Groups : cat/etc/group                                            
-view users are added in which all group : groups <username>                                        
-view all members in a group : members groupname                                          
+Force user to change password after login: sudo chage -d 0 <username>                               
+passwd: Change user passwords.                                   
+chown/chmod: Change file/directory ownership and permissions.                              
+
+To add user to a perticular group : sudo usermod -aG <groupname> <username>                       
+
+View Groups : cat/etc/group                        
+view users are added in which all group : groups <username>                      
+view all members in a group : members groupname / getent group <groupname>                                                    
 
 
 Process Management:
